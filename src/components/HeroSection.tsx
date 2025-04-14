@@ -19,7 +19,7 @@ const HeroSection = () => {
           <div className="order-2 md:order-1 max-w-3xl">
             <p className="text-accent-blue-light font-medium mb-4 animate-fade-in">Hello, I'm</p>
             <h1 className="text-5xl md:text-6xl lg:text-7xl font-heading font-bold mb-6 animate-fade-in animation-delay-100">
-              <span className="text-white">Your Name</span>
+              <span className="text-white">Samrat Karki</span>
             </h1>
             <p className="text-xl md:text-2xl font-light mb-8 text-gray-300 leading-relaxed animate-fade-in animation-delay-200">
               I'm a <span className="text-accent-purple-light font-medium">Designer & Developer</span> creating modern and responsive web applications focused on user experience.
