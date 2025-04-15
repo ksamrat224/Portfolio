@@ -8,27 +8,24 @@ const AboutSection = () => {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           <div className="order-2 lg:order-1">
             <p className="text-accent-blue uppercase tracking-wider font-medium mb-2 animate-fade-in">About Me</p>
-            <h2 className="text-4xl font-bold font-heading mb-6 animate-fade-in animation-delay-100">
-              Developer & Designer with a passion for creating beautiful experiences
+            <h2 className="text-3xl font-bold font-heading mb-6 animate-fade-in animation-delay-100">
+            Full-Stack Web Developer | Creative UI/UX Designer | Lifelong Tech Learner
             </h2>
             <div className="space-y-4 text-gray-700 animate-fade-in animation-delay-200">
               <p>
-                I'm a passionate web developer with expertise in building modern web applications using the latest technologies. 
-                My journey in tech started when I was in college, and I've been hooked ever since.
+              I'm a passionate web developer and designer from Nepal with a love for crafting modern, responsive web applications using the MERN stack and other cutting-edge technologies. My journey into tech began during my college years at Tribhuvan University, and ever since, I've been hooked on turning ideas into intuitive digital experiences.
               </p>
               <p>
-                With over X years of experience in the field, I've worked with various technologies and frameworks, 
-                always striving to learn and improve my skills. I enjoy solving complex problems and turning ideas into reality.
+              With hands-on experience in frontend and backend development, I enjoy building sleek user interfaces, optimizing performance, and constantly pushing my boundaries by learning new tools and frameworks. Solving problems with code and creating seamless user journeys is what drives me.
               </p>
               <p>
-                When I'm not coding, you can find me exploring new design trends, contributing to open-source projects, 
-                or enjoying outdoor activities to maintain a healthy work-life balance.
+              When I’m not coding, you’ll find me diving into the latest design trends, working on open-source projects, or recharging outdoors to keep a balanced and creative mindset.
               </p>
             </div>
             
             <div className="mt-8 flex flex-wrap gap-4 animate-fade-in animation-delay-300">
               <a 
-                href="https://linkedin.com" 
+                href="https://www.linkedin.com/in/samratk225/" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="flex items-center gap-2 bg-[#0077B5] text-white px-4 py-2 rounded-lg hover:bg-[#0077B5]/90 transition-colors"
@@ -37,7 +34,7 @@ const AboutSection = () => {
                 LinkedIn
               </a>
               <a 
-                href="https://github.com" 
+                href="https://github.com/ksamrat224" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="flex items-center gap-2 bg-[#333] text-white px-4 py-2 rounded-lg hover:bg-[#333]/90 transition-colors"
