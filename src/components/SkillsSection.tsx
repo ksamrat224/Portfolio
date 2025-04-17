@@ -18,10 +18,10 @@ const SkillsSection = () => {
       title: "Frontend Development",
       icon: <Code className="text-accent-blue" size={24} />,
       skills: [
-        { name: "React.js", level: 90 },
-        { name: "Next.js", level: 85 },
-        { name: "TypeScript", level: 80 },
-        { name: "Tailwind CSS", level: 95 },
+        { name: "React.js", level: 60 },
+        { name: "Next.js", level: 10 },
+        { name: "TypeScript", level: 50 },
+        { name: "Tailwind CSS", level: 80 },
         { name: "JavaScript", level: 90 },
       ],
     },
@@ -30,7 +30,7 @@ const SkillsSection = () => {
       icon: <Server className="text-accent-purple" size={24} />,
       skills: [
         { name: "Node.js", level: 85 },
-        { name: "Express", level: 80 },
+        { name: "Nest.js", level: 80 },
         { name: "MongoDB", level: 75 },
         { name: "PostgreSQL", level: 70 },
         { name: "GraphQL", level: 65 },
