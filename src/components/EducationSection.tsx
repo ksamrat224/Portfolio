@@ -6,16 +6,28 @@ const EducationSection = () => {
   const educationItems = [
     {
       degree: "Higher Secondary Education",
-      institution: "Shikshadeep Higher Secondary School",
+      institution: "Shikshadeep College",
       location: "Biratnagar, Nepal",
       years: "2020-2022",
     },
     {
-      degree: "Bachelor of Science in Computer Science",
+      degree: "Bachelor of Science in Computer Science and Information Technology",
       institution: "Tribhuvan University",
       location: "Kathmandu, Nepal",
       years: "2022 - Present",
-    }
+    },
+    {
+      degree: "Full Stack Web Development(Certification)",
+      institution: "Clove IT",
+      location: "Mahendra Chowk, Biratnagar, Nepal",
+      years: "2025(3 months)",
+    },
+    {
+      degree: "Full Stack Web Development(Internship)",
+      institution: "Clove IT",
+      location: "Mahendra Chowk, Biratnagar, Nepal",
+      years: "2025 - Present",
+    },
   ];
 
   return (
@@ -23,7 +35,7 @@ const EducationSection = () => {
       <div className="container">
         <div className="text-center mb-16">
           <p className="text-accent-blue uppercase tracking-wider font-medium mb-2 animate-fade-in">Learning Journey</p>
-          <h2 className="text-4xl font-bold font-heading mb-4 animate-fade-in animation-delay-100">Education</h2>
+          <h2 className="text-4xl font-bold font-heading mb-4 animate-fade-in animation-delay-100">Education & Experience</h2>
           <p className="text-muted-foreground max-w-2xl mx-auto animate-fade-in animation-delay-200">
             My academic background that has shaped my technical knowledge and professional approach.
           </p>

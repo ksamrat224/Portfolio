@@ -6,28 +6,30 @@ import Footer from '@/components/Footer';
 const Education = () => {
   const educationItems = [
     {
-      degree: "Master of Science in Computer Science",
-      institution: "Stanford University",
-      location: "Stanford, CA",
-      years: "2019 - 2021",
+      degree: "Higher Secondary Certificate",
+      institution: "Shikshadeep College",
+      location: "Biratnagar, Nepal",
+      years: "2020 - 2022",
       description: "Specialized in Artificial Intelligence and Machine Learning. Graduated with honors and completed a thesis on deep learning applications in computer vision.",
-      achievements: ["Dean's List", "Research Assistant", "AI Conference Speaker"]
+      achievements: ["Top 10% of Class", "Best Project Award"],
+    
     },
     {
-      degree: "Bachelor of Engineering in Computer Science",
-      institution: "MIT",
-      location: "Cambridge, MA",
-      years: "2015 - 2019",
-      description: "Focused on software engineering principles and full-stack development. Participated in multiple hackathons and coding competitions.",
-      achievements: ["Scholarship Recipient", "Programming Club President", "Capstone Project Award"]
+      degree: "Bachelor of Science in Computer Science and Information Technology",
+      institution: "Tribhuvan University",
+      location: "Kathmandu, Nepal",
+      years: "2022-Present",
+      description: "Studying core areas of computer science including algorithms, data structures, and software engineering. Engaged in various projects and internships to enhance practical skills.",
+      achievements: ["Project ", "Research Assistant", "Internship at Clove IT"]
+      
     },
     {
-      degree: "High School Diploma",
-      institution: "Tech Preparatory Academy",
-      location: "Boston, MA",
-      years: "2011 - 2015",
-      description: "Advanced placement in mathematics and computer science. Developed a student management system as senior project.",
-      achievements: ["Valedictorian", "Math Olympiad Winner", "Coding Competition Finalist"]
+      degree: "Full Stack Web Development",
+      institution: "Clove IT",
+      location: "Mahendra Chowk, Biratnagar, Nepal",
+      years: "2025 - Present",
+      description: "Completed a 3-months certification program in full stack web development using React as frontend,NestJs for backend,and PostgreSQL for DB management.Gained hands-on experience in building responsive web applications and RESTful APIs.",
+      achievements: ["Top Performer", "Project Showcase", "Internship Opportunity"]
     }
   ];
 
