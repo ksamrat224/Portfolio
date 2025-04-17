@@ -52,10 +52,10 @@ const SkillsSection = () => {
       icon: <ShieldCheck className="text-green-500" size={24} />,
       skills: [
         { name: "Git", level: 90 },
-        { name: "Docker", level: 75 },
-        { name: "CI/CD", level: 70 },
-        { name: "AWS", level: 65 },
-        { name: "Testing", level: 80 },
+        { name: "vs code", level: 75 },
+        { name: "Postman", level: 70 },
+        { name: "WSL", level: 65 },
+        { name: "GitHub", level: 80 },
       ],
     },
   ];
