@@ -23,7 +23,7 @@ const EducationSection = () => {
       years: "2025(3 months)",
     },
     {
-      degree: "Full Stack Web Development(Internship)",
+      degree: "Internship",
       institution: "Clove IT",
       location: "Mahendra Chowk, Biratnagar, Nepal",
       years: "2025 - Present",
