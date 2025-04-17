@@ -5,16 +5,16 @@ import { Link } from 'react-router-dom';
 const EducationSection = () => {
   const educationItems = [
     {
-      degree: "Master of Science in Computer Science",
-      institution: "Stanford University",
-      location: "Stanford, CA",
-      years: "2019 - 2021",
+      degree: "Higher Secondary Education",
+      institution: "Shikshadeep Higher Secondary School",
+      location: "Biratnagar, Nepal",
+      years: "2020-2022",
     },
     {
-      degree: "Bachelor of Engineering in Computer Science",
-      institution: "MIT",
-      location: "Cambridge, MA",
-      years: "2015 - 2019",
+      degree: "Bachelor of Science in Computer Science",
+      institution: "Tribhuvan University",
+      location: "Kathmandu, Nepal",
+      years: "2022 - Present",
     }
   ];
 
