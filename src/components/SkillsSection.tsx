@@ -51,7 +51,7 @@ const SkillsSection = () => {
       title: "Software & Tools",
       icon: <ShieldCheck className="text-green-500" size={24} />,
       skills: [
-        { name: "Vercel", level: 90 },
+        { name: "Vercel         ", level: 90 },
         { name: "vs code", level: 75 },
         { name: "Postman", level: 70 },
         { name: "WSL", level: 65 },
