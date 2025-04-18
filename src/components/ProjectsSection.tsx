@@ -48,7 +48,7 @@ const ProjectsSection = () => {
       title: "NetflixGPT ",
       description: "A Netflix clone with a movie recommendation feature powered by OpenAI's, built with React and Firebase.",
       tags: ["React","Tailwind CSS","Redux"],
-      image: "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fHdlYiUyMGRldmVsb3BtZW50fGVufDB8fDB8fHww",
+      image: "https://schar.dev/_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fscharde%2Fimage%2Fupload%2Ft_webp%2Fworks%2Fnfx-2.png&w=3840&q=100",
       liveUrl: "https://example.com",
       githubUrl: "https://github.com/ksamrat224/Netflix-GPT",
     },
