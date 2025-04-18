@@ -50,7 +50,7 @@ const ProjectsSection = () => {
       tags: ["React","Tailwind CSS","Redux"],
       image: "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fHdlYiUyMGRldmVsb3BtZW50fGVufDB8fDB8fHww",
       liveUrl: "https://example.com",
-      githubUrl: "https://github.com",
+      githubUrl: "https://github.com/ksamrat224/Netflix-GPT",
     },
   ];
 
