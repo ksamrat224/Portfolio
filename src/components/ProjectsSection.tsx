@@ -21,9 +21,9 @@ const ProjectsSection = () => {
       title: "E-Commerce Store",
       description: "A responsive e-commerce web application with modern UI/UX design principles and sleek animations.",
       tags: ["React", "Tailwind CSS", "TypeScript","Redux"],
-      image: "https://images.unsplash.com/photo-1498050108023-c5249f4df085?q=80&w=2072&auto=format&fit=crop",
+      image: "https://repository-images.githubusercontent.com/456963513/82528385-a73f-488f-9003-513321283a6b",
       liveUrl: "https://example.com",
-      githubUrl: "https://github.com",
+      githubUrl: "https://github.com/ksamrat224/e-commerce",
     },
     {
       id: 2,
