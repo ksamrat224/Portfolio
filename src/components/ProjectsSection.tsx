@@ -61,6 +61,15 @@ const ProjectsSection = () => {
       liveUrl: "https://example.com",
       githubUrl: "https://github.com/ksamrat224/reactVITE",
     },
+    {
+      id: 6,
+      title: "Youtube Clone",
+      description: "Youtube clone created as a learning project.",
+      tags: ["React", "Tailwind CSS","Redux"],
+      image: "https://www.figma.com/community/resource/e2d59ad1-4ee3-4de0-bd50-f03a873c6567/thumbnail",
+      liveUrl: "https://example.com",
+      githubUrl: "https://github.com/ksamrat224/Youtube",
+    },
   ];
 
   const filters = ['All', 'React', 'Next.js', 'TypeScript', 'Tailwind CSS', 'Vue.js', 'Firebase'];
