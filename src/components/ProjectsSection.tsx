@@ -41,7 +41,7 @@ const ProjectsSection = () => {
       tags: ["Nest.js", "Prisma"],
       image: "https://user-images.githubusercontent.com/15667259/30900131-ecf535b0-a38c-11e7-9cd3-86c6b511ae9d.png",
       liveUrl: "https://example.com",
-      githubUrl: "https://github.com",
+      githubUrl: "https://github.com/ksamrat224/todos-api",
     },
     {
       id: 4,
