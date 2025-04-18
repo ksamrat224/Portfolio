@@ -52,6 +52,15 @@ const ProjectsSection = () => {
       liveUrl: "https://example.com",
       githubUrl: "https://github.com/ksamrat224/Netflix-GPT",
     },
+    {
+      id: 5,
+      title: "Swiggy Clone",
+      description: "A Swiggy clone with a food ordering feature made while learning React.",
+      tags: ["React","Tailwind CSS","Redux"],
+      image: "https://repository-images.githubusercontent.com/488111888/8b9a24ba-ad14-41be-8eaa-f7b0f7b8b91a",
+      liveUrl: "https://example.com",
+      githubUrl: "https://github.com/ksamrat224/reactVITE",
+    },
   ];
 
   const filters = ['All', 'React', 'Next.js', 'TypeScript', 'Tailwind CSS', 'Vue.js', 'Firebase'];
