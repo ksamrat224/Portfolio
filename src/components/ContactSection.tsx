@@ -1,12 +1,18 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { Send, Mail, MapPin, Phone } from "lucide-react";
 import { useToast } from "@/hooks/use-toast";
+import emailjs from "emailjs-com";
 
 const ContactSection = () => {
  //EmailJS configuration
- const serviceId= "service_00496mm ";
+ const serviceId= "service_00496mm";
  const templateId= "template_zx3ysmh";
  const publicKey= "HIUzIU845h-Lwue6I";
+
+ useEffect(()=>{
+  //initialize emailjs
+  emailjs.init(publicKey);
+ },[publicKey])
 
   const { toast } = useToast();
   const [formData, setFormData] = useState({
@@ -24,29 +30,45 @@ const ContactSection = () => {
     setFormData((prev) => ({ ...prev, [name]: value }));
   };
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     setIsSubmitting(true);
-
-    // Simulate form submission
-    setTimeout(() => {
+  
+    try {
+      await emailjs.send(
+        serviceId,
+        templateId,
+        {
+          name: formData.name,
+          email: formData.email,
+          subject: formData.subject,
+          message: formData.message,
+        },
+        publicKey
+      );
+  
       toast({
         title: "Message Sent!",
         description: "Thank you for your message. I'll get back to you soon.",
         variant: "default",
       });
-
+  
       setFormData({
         name: "",
         email: "",
         subject: "",
         message: "",
       });
-
+    } catch (error) {
+      toast({
+        title: "Error",
+        description: "Something went wrong. Please try again later.",
+        variant: "destructive",
+      });
+    } finally {
       setIsSubmitting(false);
-    }, 1500);
+    }
   };
-
   const contactInfo = [
     {
       icon: <Mail className="text-accent-blue" size={20} />,
