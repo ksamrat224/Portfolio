@@ -56,7 +56,7 @@ const AboutSection = () => {
             <div className="relative z-10 animate-float">
               <div className="relative overflow-hidden rounded-xl shadow-xl">
                 <img 
-                  src="https://images.unsplash.com/photo-1580927752452-89d86da3fa0a?q=80&w=2070&auto=format&fit=crop" 
+                  src="/i.jpg" 
                   alt="Profile" 
                   className="w-full h-full object-cover"
                 />
