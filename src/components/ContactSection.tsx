@@ -3,6 +3,11 @@ import { Send, Mail, MapPin, Phone } from "lucide-react";
 import { useToast } from "@/hooks/use-toast";
 
 const ContactSection = () => {
+ //EmailJS configuration
+ const serviceId= "service_00496mm ";
+ const templateId= "template_zx3ysmh";
+ const publicKey= "HIUzIU845h-Lwue6I";
+
   const { toast } = useToast();
   const [formData, setFormData] = useState({
     name: "",
