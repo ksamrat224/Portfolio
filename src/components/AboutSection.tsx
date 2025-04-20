@@ -11,15 +11,15 @@ const AboutSection = () => {
             <h2 className="text-3xl font-bold font-heading mb-6 animate-fade-in animation-delay-100">
             Full-Stack Web Developer | Creative UI/UX Designer | Lifelong Tech Learner
             </h2>
-            <div className="space-y-4 text-gray-700 animate-fade-in animation-delay-200">
+            <div className="space-y-4 text-gray-700 animate-fade-in animation-delay-200 font-serif">
               <p>
-              I'm a passionate web developer and designer from Nepal with a love for crafting modern, responsive web applications using the MERN stack and other cutting-edge technologies. My journey into tech began during my college years at Tribhuvan University, and ever since, I've been hooked on turning ideas into intuitive digital experiences.
+              Well ,if you were to ask me who I am. I'd say I'm 20 yr old computer science student at Tribhuvan University,diving into the world of code.
               </p>
               <p>
-              With hands-on experience in frontend and backend development, I enjoy building sleek user interfaces, optimizing performance, and constantly pushing my boundaries by learning new tools and frameworks. Solving problems with code and creating seamless user journeys is what drives me.
+              I'm all about keeping things clean and simple-crafting creations that look sleek and function smoothly.I'm like a design-minded coder,always exploring and evolving. While I'm discovering Nest.js and React,one thing's certain:I love building new things or giving a fresh twist to what's already out there.
               </p>
               <p>
-              When I’m not coding, you’ll find me diving into the latest design trends, working on open-source projects, or recharging outdoors to keep a balanced and creative mindset.
+             Making interfaces smoother?That's what I enjoy.So,in a nutshell,I'm all about tech,design,and the pure joy of making things click.Let's see where this journey take me next!
               </p>
             </div>
             
